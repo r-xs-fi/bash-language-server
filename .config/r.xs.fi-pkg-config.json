@@ -1,0 +1,14 @@
+{
+	"usage_examples": [
+		{
+			"title": "Bash language server",
+			"cmd": "",
+			"docker_opts": []
+		}
+	],
+	"supply_chain_descriptor": "npm-package:bash-language-server",
+	"not_building_for_platforms_because": {
+		"linux/arm/v7": "Some deps like shellcheck not available for this platform",
+		"linux/riscv64": "Some deps like shellcheck not available for this platform"
+	}
+}

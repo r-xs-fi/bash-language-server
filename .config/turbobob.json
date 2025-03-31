@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "Bash Language Server",
+	"meta": {
+		"description": "Container image for Bash Language Server - A language server for Bash",
+		"website": "https://github.com/bash-lsp/bash-language-server"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/bash-language-server", "platforms": ["linux/amd64", "linux/arm64"], "tag_latest": true }
+	]
+}
